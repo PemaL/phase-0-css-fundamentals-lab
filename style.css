@@ -1,5 +1,50 @@
+
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+ 
+  
 }
+h1,nav,figure {
+text-align: center;
+}  
+img{
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+nav a{
+  padding: 7px; 
+  background-color: thistle;
+}
+figure figcaption {
+  font-size: 1rem;
+  text-align: center;
+}
+#featured-property{
+  padding: 0px 40px 0px 40px;
+  text-align: center;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+ 
+}
+#featured-property p {
+width: 800px;
+font-size: 1em;
+}
+details{
+height: 2.5em;
+}
+#details div{
+  float: left;
+  background-color: red;
+  text-align: center;
+  width: 25%;
+ }
+  
+  
+
